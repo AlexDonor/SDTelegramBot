@@ -15,13 +15,13 @@ SDTelegramBot распространяется в надежде, что она 
 from utils.sd_api import api_service
 
 # True сохраняет сгенерированные файлы в папку "outputs/txt2img-images"
-save_files = False
+save_files = True
 
 # Путь к папке для сохраненный изображений. Пример: "outputs/txt2img-images"
 output_folder = 'outputs/txt2img-images'
 
 # Включение дополнения ADetailer
-adetailer_on = True
+adetailer_on = False
 
 
 # Параметры по умолчанию
