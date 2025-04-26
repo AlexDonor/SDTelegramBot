@@ -32,11 +32,10 @@ def get_default_params(tg_id):
               "model_name": model[0]['model_name'],
               "styles_list": '',
               "lora_list": '',
-              "negative_prompt": '(deformed, distorted, disfigured:1.3),poorly drawn,bad anatomy,wrong anatomy,'
-                                 'extra limb,missing limb,'
-                                 'floating limbs,(mutated hands and fingers:1.4),disconnected limbs,mutation,mutated,'
-                                 'ugly,disgusting,'
-                                 'blurry,amputation',
+              "negative_prompt": '(deformed, distorted, disfigured:1.3), poorly drawn, [bad : wrong] anatomy,'
+                                 '[extra | missing | floating | disconnected] limbs, [bad | ugly] face,'
+                                 '(mutated hands and fingers:1.4), ugly, disgusting, blurry, amputation,'
+                                 'jpeg artifacts, signature, watermark, username',
               "sampler_name": 'Euler a',
               "steps": 22,
               "width_height": '640x640',
